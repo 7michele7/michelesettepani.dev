@@ -1,0 +1,24 @@
+{
+  "name": "michelesettepani.dev",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7michele7/michelesettepani.dev.git"
+  },
+  "author": "Michele Settepani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7michele7/michelesettepani.dev/issues"
+  },
+  "homepage": "https://github.com/7michele7/michelesettepani.dev#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
