@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Michele Settepani, Frontend Developer personal site">
+    <meta name="”robots”" content="index, follow">
+    <title>Michele Settepani</title>
+
+    <script async="" src="c5af51e87fbdcd94415f94b18b160961"></script>
+    <script data-parcel-key="bccd69d8c8b8c1cea8db05157959df28">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-164233493-1');
+    </script>
+</head>
+
+<body>
+    <div id="app-container">
+        <div class="flex-items">
+            <div class="flex-item">
+                <span class="header-text">Hello, I'm Michele.</span> &nbsp;
+                <span>I'm a Frontend Developer</span>
+                <span class="header-cursor"></span>
+            </div>
+            <div class="flex-break"></div>
+            <div class="flex-item">
+                <a class="item-link" href="95c1c6299205c1a04ec5ead94015a9ca" target="_blank">linkedin</a>
+            </div>
+            <div class=" flex-item">
+                <a class="item-link" href="b3bd42d11a2b6409377ba60e7e3e1063" target="_blank">github</a>
+            </div>
+        </div>
+    </div>
+    <script src="2e6c45d003afe79dcde3ac59b1894530" data-parcel-key="c797be798d2fedf9b529513d88d274c4"> </script>
+</body>
+
+</html>
