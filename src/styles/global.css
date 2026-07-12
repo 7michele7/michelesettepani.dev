@@ -78,6 +78,8 @@ body {
   width: 15px;
   height: 30px;
   background: #000;
+  position: relative;
+  top: 4px;
   animation: blink-animation 1.5s steps(2, start) infinite;
   -webkit-animation: blink-animation 1.5s steps(2, start) infinite;
 }
