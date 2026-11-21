@@ -154,13 +154,13 @@ main {
   color: var(--muted);
 }
 
-/* The blinking caret returns, as a thin ink bar instead of a block. */
+/* The blinking caret returns, as a terminal block cursor. */
 .caret {
   display: inline-block;
-  width: 2px;
-  height: 1.02em;
-  margin-left: 0.3em;
-  vertical-align: -0.12em;
+  width: 0.5em;
+  height: 1em;
+  margin-left: 0.2em;
+  vertical-align: -0.16em;
   background: var(--fg);
   animation: blink 1.1s steps(1, end) infinite;
 }
