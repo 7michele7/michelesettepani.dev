@@ -1,24 +1,17 @@
 {
   "name": "michelesettepani.dev",
+  "private": true,
   "version": "1.0.0",
-  "description": "My personal website",
-  "main": "dist/index.html",
+  "type": "module",
+  "description": "Michele Settepani — personal site",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "node build.js && python3 -m http.server 3000 --directory dist",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/7michele7/michelesettepani.dev.git"
   },
   "author": "Michele Settepani",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/7michele7/michelesettepani.dev/issues"
-  },
-  "homepage": "https://github.com/7michele7/michelesettepani.dev#readme",
-  "devDependencies": {
-    "parcel": "2.0.0-beta.2"
-  }
+  "license": "ISC"
 }
